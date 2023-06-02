@@ -37,6 +37,7 @@ const Navigation = () => {
             </ul>
         </div>
         <div className="socialNetwork">
+            
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/francis-jubilo" target="_blank" rel="noopener noreferrer">
