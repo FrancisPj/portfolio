@@ -1,0 +1,141 @@
+@import "./variables";
+
+.cart{
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.cart-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.cartGrid:hover {
+  transform: scale(1.1);
+}
+.cartGrid {
+  margin: 25px 5px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px rgba(54, 50, 50, 0.3803921569);
+  width: 340px;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+  font-size: 13px;
+  justify-content: center;
+  display: flex;
+  transition-duration: 300ms;
+  color: $white;
+  font-weight: bold;
+  .descript-projet{
+    position: absolute;
+    bottom: 60px;
+    margin: 10px;
+
+    width: 80%;
+  }
+}
+
+.cartGrid:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
+}
+.cartGrid img:hover {
+    transform: scale(1.1);
+}
+.cartGrid img {
+  max-width: 100%;
+  max-height: 100%;
+ /* object-fit: contain;
+  margin-bottom: 5px;*/
+}
+
+.cart_text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: $black;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  text-decoration:none;
+}
+.blocImg-projet {
+  justify-content: center;
+  display: flex;
+  .img-projet {
+    position: absolute;
+    top: 35px;
+   width: 90%;
+    height: 186px;
+
+    display: flex;
+    justify-content: center;
+  }
+
+}
+.bloc-projet{
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  .project-technologies{
+    display: flex;
+    margin-bottom: 10px;
+        .logo-img {
+      width: 45px;
+      padding: 5px;
+
+    }
+  }
+}
+/*Deskop*/
+@media screen and (max-width: 768px) {
+  .cart{
+    margin-top: 20px;
+    padding: 0;
+    background: none;
+  }
+  .cartGrid{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .cart-container{
+    margin: 0;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-device-width: 375px) {
+  .cartGrid {
+    border-radius: 10px;
+    display: inline-block;
+    height: 225px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 5px 0 ;
+  }
+  .cart_text {
+    padding: 10px;
+    font-size: 13px;
+    text-align: left;
+  }
+  .cart-container{
+    margin: 0;
+  }
+}

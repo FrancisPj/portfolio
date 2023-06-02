@@ -1,0 +1,80 @@
+[
+    {
+        "name": "kasa",
+        "id": "1",
+        "cover": "kasa",
+        "development": "Front-End",
+        "description": "Adaptation d'une maquette figma en projet react et router avec React-router, avec des composants individuel et réutilisable. Location de lieux de vacance ",
+        "techno": [
+            "html",
+            "css",
+            "js",
+            "reactjs"
+        ],
+        "link":"https://github.com/FrancisPj/projet7"
+    },
+    {
+        "name": "Piquante",
+        "id":" 2",
+        "cover": "piquante",
+        "development": "Back-end",
+        "description": "Création d'une application web afin que les utilisateurs puissent noter des sauces piquantes",
+        "techno": [
+            "js",
+            "nodejs",
+            "mongodb"
+        ],
+        "link":"https://github.com/FrancisPj/projetP6_VI"
+    },
+    {
+        "name": "Kanap",
+        "id": "3",
+        "cover":"kanap",
+        "development": "Front-End",
+        "description": "Création de la partie front d'un site e-commerce",
+        "techno": [
+            "js"
+        ],
+        "link":"https://github.com/FrancisPj/ProjetP5_VI"
+    },
+    {
+        "name":"La Panthère",
+        "id": "4",
+        "cover":"Lapanthere",
+        "development": "SEO",
+        "description": "Amélioration du référencement et de l'accessibilité",
+        "techno": [
+            "html",
+            "css"
+        ],
+        "link":"https://github.com/FrancisPj/Projet4_VI",
+        "deployment":"https://francispj.github.io/Projet4_VI/"
+    },
+    {
+        "name": "OhMyFood!",
+        "id": "5",
+        "cover": "ohmyfood",
+       "development": "Front-End",
+        "description": "Création à partir de maquettes d'un site de réservation de menu en ligne",
+        "techno": [
+            "html",
+            "css",
+            "sass"
+        ],
+        "link":"https://github.com/FrancisPj/projet3VI",
+        "deployment":"https://francispj.github.io/projet3VI/"
+    },
+    {
+        "name": "Booki",
+        "id": "6",
+        "cover": "booki",
+        "development": "Front-End",
+        "description": "Création à partir de maquettes d'un site de plannification de vacances",
+        "techno": [
+            "html",
+            "css"
+        ],
+        "link":"https://github.com/FrancisPj/FrancisPj-projet2VII",
+        "deployment":"https://francispj.github.io/FrancisPj-projet2VII/"
+    }
+]

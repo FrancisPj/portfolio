@@ -1,0 +1,64 @@
+@import "./Variables";
+
+.home {
+  padding: 20px;
+  flex-direction: column;
+  width: -moz-available;
+  background: $color-2;
+  border-radius: $borderRadius;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: $color-3;
+
+  .sectionTitle {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: $color-3;
+  }
+  .presentationP {
+    line-height: 200%;
+    margin: 10px;
+
+  }
+  .downloadCVButton {
+    display: flex;
+    justify-content: center;
+
+    .downloadCVLink {
+      margin: 2%;
+      text-decoration: none;
+      font-size: 16px;
+      background-color: $color-3;
+      color: $white;
+      padding: 15px 40px;
+      border-style: none;
+      border-radius: 15px;
+
+      transition-duration: 300ms;
+      cursor: pointer;
+
+      }
+      &:hover {
+        border-radius: $borderRadius;
+        background-color: $color-4;
+        font-weight: 800;
+        scale: 0.90;
+      }
+}}
+@media screen and (max-width: 700px) {
+  .mainAboutContainer{
+    flex-direction: column;
+    .home {
+      width: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+.sectionTitle h2{
+  font-size: 20px;
+  font-weight : bolder;
+}
+
+    }
+  }
+}

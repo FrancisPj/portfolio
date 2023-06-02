@@ -1,0 +1,51 @@
+@import './Variables';
+@import "Navigation";
+@import "Footer";
+@import "home";
+
+body{
+  font-family: 'Raleway', sans-serif;
+  margin: 16px auto;
+  max-width: 1200px;
+
+  .mainAboutContainer {
+    display: flex;
+  }
+  .sectionTitle {
+    font-size: 26px;
+    color: $black;
+    h2 {
+      font-weight: 400;
+    }
+  }
+}
+button {
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: $black;
+  cursor: pointer;
+  :visited{
+    color: $black;
+  }
+}
+
+.home {
+  display: flex ;
+  text-align: center;
+
+  @media screen and (max-width: 850px) {
+    display: block !important;
+  }
+}
+.homeContent {
+  margin-left: 8px;
+
+  @media screen and (max-width: 850px) {
+  margin-left: 0 !important;
+  }
+}

@@ -1,0 +1,165 @@
+@import "Variables";
+
+.sidebar {
+  background: $color-2;
+  font-family:'Raleway', sans-serif;
+  height: auto;
+  width: 365px;
+  min-height:80%;
+  border-radius: $borderRadius;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .id {
+    display: flex;
+     text-align: center;
+    user-select: none;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+    .idContent {
+      position: relative;
+      bottom: -20px;
+      width: 100%;
+
+      img {
+        border-radius: 50%;
+        box-shadow: 0 0 0 4px $color-3;
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+      h3, h4 {
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin-bottom: 18px;
+        color: $color-3;
+      }
+    }
+  }
+.navigation {
+
+  padding: 15px 10px;
+
+  ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    li {
+      padding: 16px 0 16px 6px;
+      font-size: 20px;
+      position: relative;
+
+      &:hover i {
+        transform: translate(3px, 3px);
+      }
+      a {
+       color: $color-3;
+      }
+      a:active,  a:focus {
+        color: $color-3;
+        font-weight: bold;
+      }
+      i {
+        position:absolute;
+        font-size: 18px;
+        transform: translateY(3px);
+        transition: .2s ease;
+      }
+      span {
+        margin-left: 30px;
+      }
+    }
+  }
+}
+  .socialNetwork {
+    display: flex;
+    ul {
+      display: flex;
+      flex-direction: row;
+       padding: 0 15px;
+      justify-content: space-around;
+      width: 100%;
+      margin-bottom: 10px;
+
+      li{
+        font-size: 25px;
+        background: $color-3;
+        color: $color-3;
+        border-radius: 50%;
+        padding: 8px 10px;
+        transition: 0.3s;
+        cursor: pointer;
+      }
+      a:visited {
+        color: $color-2;
+      }
+      li:hover {
+        background: $color-4;
+      }
+      a:hover {
+        color: $color-3;
+      }
+    }
+  }
+
+
+@media screen and (max-width: 700px) {
+  .sidebar{
+    width: auto;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    .socialNetwork {
+      ul {display: none;}
+    }
+
+  }
+  .id {
+    order: 1;
+     }
+  .navigation {
+    order: 2;
+  }
+  .sidebar .id .idContent {
+    font-size: 9px;
+    display: flex;
+    padding: 5px 0 0 15px ;
+    text-align: left;
+  }
+  .sidebar .navigation ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    li {
+      padding: 5px 0 5px 4px;
+      font-size: small;
+      }
+  }
+  .navigation {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+   }
+}
+
+@media screen and (max-width: 700px) {
+ .sidebar .id .idContent img {
+   height: 80px;
+  width: 80px;
+   margin-right: 15px;;
+  }
+  .sidebar .navigation ul li i {
+    transform: none;
+  }
+}

@@ -1,0 +1,22 @@
+$color-1: #ef9f09;
+$color-2: #eec374;
+$color-3: #4d3608;
+$color-4: #eedc69;
+
+$white: #ddd;
+$black:#333;
+
+$borderRadius: 25px;
+$shadow: 0 1px 3px #333;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
