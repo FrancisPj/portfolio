@@ -68,6 +68,5 @@ function Card() {
         </section>
     );
 }
-
 export default Card;
 
