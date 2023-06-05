@@ -1,12 +1,13 @@
 @import './variables';
-@import "Navigation";
-@import "Footer";
+@import "./navigation";
+@import "footer";
 @import "home";
 
 body{
   font-family: 'Raleway', sans-serif;
   margin: 16px auto;
   max-width: 1200px;
+
 
   .mainAboutContainer {
     display: flex;
