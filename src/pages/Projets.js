@@ -9,10 +9,10 @@ function Projets() {
         <div>
             <h2>Mes Projets</h2>
             <p>Executés lors de ma formation.</p>
-            <Card/ >
+            <Card/>
         </div>
-      
-           
+
+
     )
 }
 

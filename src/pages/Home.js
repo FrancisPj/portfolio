@@ -1,8 +1,5 @@
 import React from 'react';
-/*import Navigation from "../components/Navigation";*/
-/*import Footer from "../components/Footer";*/
 import cv from "./../media/cv.pdf";
-
 
 const Home = () => {
     return (

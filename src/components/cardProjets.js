@@ -61,7 +61,7 @@ function Card() {
                                 <img className={'logo-img'} key={techno} src={logos[techno]} alt={techno} />
                             ))}
                         </div>
-                    </div>
+                      </div>
                     </Link>
                 ))}
             </div>
