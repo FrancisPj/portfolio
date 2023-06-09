@@ -15,7 +15,8 @@ const Home = () => {
                             Pour connaître mon parcours, mes
                             projets ! <br />
                             Je me nomme Francis, je vis en Bourgogne. <br /> En 2018, j'ai décidé d’entreprendre une reconversion professionnelle dans un domaine alliant créativité et informatique: le Développement Web !
-                            <br /> J'ai débuté en 2021 avec un bootcamp chez WebForce3 et j'ai validé la partie de développeur Front-end. J’ai donc complété mon parcours par une formation diplômante, afin de confirmer mon projet professionnel, avec le centre de formation <strong> OpenClassrooms.</strong><br /><br />
+                            <br /> J'ai débuté en 2021 avec un bootcamp chez WebForce3 et j'ai validé la partie de développeur Front-end. J’ai donc complété mon parcours par une formation diplômante, afin de confirmer mon projet professionnel, avec le centre de formation <a
+                            href="https://openclassrooms.com/fr/paths/717-developpeur-web" target="_blank" rel="noopener noreferrer"><strong>OpenClassrooms.</strong></a><br /><br />
                              Je suis attiré par les nouvelles technologies,
                             les jeux de société.<br /><br />
                             Je suis de nature curieux, j’aime apprendre et voir des projets
