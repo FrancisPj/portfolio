@@ -1,0 +1,19 @@
+@import "./variables";
+
+.erreur404 {
+  width: auto;
+  height: 75%;
+  margin-top: 15px;
+  display:block;
+  overflow:hidden;
+  border:1px solid $color-3;
+  border-radius: $borderRadius;
+  &:hover img{
+    transform:scale(1.2);
+  }
+  img{
+    border-radius: $borderRadius;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+    transition: all 0.5s;
+  }
+}

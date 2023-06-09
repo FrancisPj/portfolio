@@ -11,7 +11,8 @@
             "js",
             "reactjs"
         ],
-        "link":"https://github.com/FrancisPj/projet7"
+        "link": "https://github.com/FrancisPj/projet7",
+        "deployment": "https://projet7-2ze6-6okuaf1qc-francispj.vercel.app/"
     },
     {
         "name": "Piquante",
@@ -40,7 +41,7 @@
     {
         "name":"La Panthère",
         "id": "4",
-        "cover":"Lapanthere",
+        "cover":"lapanthere",
         "development": "SEO",
         "description": "Amélioration du référencement et de l'accessibilité",
         "techno": [

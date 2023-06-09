@@ -15,7 +15,8 @@
   justify-content: space-around;
   width: 100%;
 }
-.cartGrid:hover {
+.cartGrid:hover,
+.cartGrid:focus {
   transform: scale(1.1);
 }
 .cartGrid {
@@ -23,20 +24,19 @@
   border-radius: 10px;
   box-shadow: 3px 5px 5px rgba(54, 50, 50, 0.3803921569);
   width: 340px;
-  height: 380px;
+  height: 400px;
   position: relative;
   overflow: hidden;
   font-size: 13px;
   justify-content: center;
   display: flex;
   transition-duration: 300ms;
-  color: $white;
+  color: $black;
   font-weight: bold;
   .descript-projet{
     position: absolute;
     bottom: 60px;
-    margin: 10px;
-    width: 80%;
+    margin:0 10px 10px;
   }
 }
 
@@ -47,9 +47,9 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
 }
-.cartGrid img:hover {
+.cartGrid .logo-img:hover {
     transform: scale(1.1);
 }
 .cartGrid img {
@@ -69,6 +69,10 @@
   text-align: left;
   text-decoration:none;
 }
+.responsive-div {
+  display: inline-block;
+  max-width: 100%;
+}
 .blocImg-projet {
   justify-content: center;
   display: flex;
@@ -80,8 +84,10 @@
 
     display: flex;
     justify-content: center;
+    img{
+      object-fit: scale-down;
+    }
   }
-
 }
 .bloc-projet{
   justify-content: center;
@@ -99,6 +105,9 @@
     }
   }
 }
+.url {
+    padding-top:10px;
+}
 /*Deskop*/
 @media screen and (max-width: 768px) {
   .cart{
@@ -113,6 +122,11 @@
   .cart-container{
     margin: 0;
   }
+.img-projet{
+ /* max-width: 80%;
+  height:auto;*/
+  object-fit: contain;
+}
 }
 
 /*Mobile*/
@@ -120,7 +134,7 @@
   .cartGrid {
     border-radius: 10px;
     display: inline-block;
-    height: 225px;
+
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -131,7 +145,22 @@
     font-size: 13px;
     text-align: left;
   }
+  .img-projet{
+    position: absolute;
+    top: 35px;
+
+  }
+  .project-technologies{
+    width: 28px;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;
+  }
+
   .cart-container{
     margin: 0;
+  }
+  .descript-projet{
+    font-size: 10px;
   }
 }

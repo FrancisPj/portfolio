@@ -11,18 +11,20 @@ body{
 
   .mainAboutContainer {
     display: flex;
+
   }
   .sectionTitle {
     font-size: 26px;
     color: $black;
-    h2 {
-      font-weight: 400;
+
+    h1 {
+      font-weight: 500;
+      border-bottom: 2px solid $black;
+      padding-bottom:1px;
     }
   }
 }
-/*button {
-  cursor: pointer;
-}*/
+
 li {
   list-style-type: none;
 }

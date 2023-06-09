@@ -7,22 +7,22 @@ import './../styles/_contact.scss'
 const Contact = () => {
     return (
         <div className="contactSection">
-            <div className="contactTitle">
-                <h2>Contact</h2>
+            <div className="sectionTitle">
+                <h1>Contact</h1>
             </div>
             <div className="contactContainer">
                 <p>Vous avez la possibilité de me suivre et de me contacter via :</p>
                 <div className="contactSection">
                             <a href="https://www.linkedin.com/in/francis-jubilo" target="_blank" rel="noopener noreferrer">
-                                <p>C'est mon espace Linkedin !</p>
+                                <p>Mon espace Linkedin !</p>
                                 <div className="contactIcons">
-                                    <FontAwesomeIcon icon={faLinkedin} className="icons" aria-label="lien linkedin"/>
+                                    <FontAwesomeIcon icon={faLinkedin} className="icons" aria-hidden="true" aria-label="Profil LinkedIn de Francis Jubilo"/>
                                 </div>
 
                             </a>
                             <a href="https://github.com/FrancisPj" target="_blank" rel="noopener noreferrer">
                                 <p>Mon Github pour visualiser mes projets ! </p>
-                                <div className="contactIcons" aria-label="lien github">
+                                <div className="contactIcons" aria-hidden="true" aria-label="Profil GitHub de Francis Jubilo">
                                     <FontAwesomeIcon icon={faGithub} className="icons" />
                                 </div>
                             </a>

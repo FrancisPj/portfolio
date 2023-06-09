@@ -6,9 +6,11 @@ import Card from './../components/cardProjets'
 function Projets() {
     return (
 
-        <div>
-            <h2>Mes Projets</h2>
-            <p>Executés lors de ma formation.</p>
+        <div >
+            <div className="sectionTitle">
+                <h1>Mes Projets</h1>
+            </div>
+            <p>Projets réalisés lors de ma formation.</p>
             <Card/>
         </div>
 

@@ -5,9 +5,11 @@ const LayoutBlank = () => {
 
     return (
         <>
-            <Navigation/>
-            <main>
+            <main className={'mainAboutContainer'}>
+                <Navigation/>
+                <div className={'home'}>
                 <Outlet/>
+                </div>
             </main>
 
         </>

@@ -1,9 +1,6 @@
 @import "./variables";
 
 .contactSection {
-  .contactTitle{
-    padding: 20px;
-  }
 
   .contactContainer {
     display: flex;
@@ -22,10 +19,11 @@
         background-color: $color-1;
         transition-duration: 300ms;
 
-        &:hover {
+        &:hover,
+        &:focus {
           background-color: $color-3;
           color:$color-4;
-          width: 50%; /* Ajout de la propriété de largeur */
+          width: 80%; /* Ajout de la propriété de largeur */
           margin: 0 auto; /* Ajout de la propriété de centrage horizontal */
         }
       }
