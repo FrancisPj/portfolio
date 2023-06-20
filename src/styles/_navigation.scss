@@ -35,11 +35,28 @@
         object-fit: cover;
         margin-bottom: 10px;
       }
+      img:hover {
+        width: 250px;
+        height: 250px;
+        transform: scale(0.9);
+        border-radius: 5%;
+        border: 3px solid #eece1a;
+        transition: all ease-out 0.5s;
+        cursor: pointer;
+      }
       h2 {
         text-transform: uppercase;
         letter-spacing: 5px;
         margin-bottom: 18px;
         color: $color-3;
+        background-image: linear-gradient(to right, yellow 0, yellow 100%);
+        background-position: 0 1.2em;
+        background-size: 0 100%;
+        background-repeat: no-repeat;
+        transition: background .5s;
+        &:hover {
+          font-weight:normal;
+        }
       }
     }
   }
