@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Card from './../components/cardProjets'
+import Perso from "./../components/cardPerso";
 
 
 function Projets() {
@@ -12,6 +13,8 @@ function Projets() {
             </div>
             <p>Projets réalisés lors de ma formation.</p>
             <Card/>
+            <p>Projets personnels !</p>
+            <Perso/>
         </div>
 
 

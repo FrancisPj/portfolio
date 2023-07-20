@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Memory",
+    "id": "1",
+    "cover": "memory",
+    "development": "Front-End",
+    "description": "Réalisation du jeu mémory pour le club de Rugby CSNuiton. ",
+    "techno": [
+      "html",
+      "css",
+      "js"
+    ],
+    "link": "https://github.com/FrancisPj/Memory-CSN",
+    "deployment": "https://memory-csn.vercel.app//"
+  }
+]

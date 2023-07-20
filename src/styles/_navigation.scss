@@ -51,6 +51,7 @@
         color: $color-3;
         &:hover {
           font-weight:normal;
+          transition:font-weight 0.30s;
         }
       }
     }
